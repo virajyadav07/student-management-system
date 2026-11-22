@@ -1,0 +1,7 @@
+backend/node_modules/
+backend/.env
+Frontened/node_modules/
+student-management-system/frontend/node_modules/
+student-management-system/frontend/dist/
+node_modules/
+.env
