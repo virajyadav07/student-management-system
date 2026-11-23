@@ -22,7 +22,7 @@ function Attendance() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/attendance",
+        "https://student-management-system-ws04.onrender.com/api/attendance",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -63,7 +63,7 @@ function Attendance() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/attendance",
+        "https://student-management-system-ws04.onrender.com/api/attendance",
         {
           method: "POST",
           headers: {
@@ -124,7 +124,7 @@ function Attendance() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/attendance/${editingId}`,
+        `https://student-management-system-ws04.onrender.com/api/attendance/${editingId}`,
         {
           method: "PUT",
           headers: {
@@ -181,7 +181,7 @@ function Attendance() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/attendance/${id}`,
+        `https://student-management-system-ws04.onrender.com/api/attendance/${id}`,
         {
           method: "DELETE",
           headers: {

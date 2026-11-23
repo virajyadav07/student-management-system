@@ -20,7 +20,7 @@ function Tasks() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/tasks",
+        "https://student-management-system-ws04.onrender.com/api/tasks",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -67,7 +67,7 @@ function Tasks() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/tasks",
+        "https://student-management-system-ws04.onrender.com/api/tasks",
         {
           method: "POST",
           headers: {
@@ -114,7 +114,7 @@ function Tasks() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/tasks/${id}`,
+        `https://student-management-system-ws04.onrender.com/api/tasks/${id}`,
         {
           method: "DELETE",
           headers: {

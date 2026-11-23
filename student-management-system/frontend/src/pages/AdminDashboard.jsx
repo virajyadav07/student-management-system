@@ -18,7 +18,7 @@ function AdminDashboard() {
       const token = localStorage.getItem("token");
       console.log("TOKEN:", token);
       const response = await fetch(
-        "http://localhost:5000/api/admin/stats",
+        "https://student-management-system-ws04.onrender.com/api/admin/stats",
         {
           headers: {
             Authorization: `Bearer ${token}`,

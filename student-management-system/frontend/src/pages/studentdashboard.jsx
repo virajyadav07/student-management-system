@@ -26,10 +26,10 @@ function StudentDashboard() {
         };
 
         const [attendanceResponse, tasksResponse] = await Promise.all([
-          fetch("http://localhost:5000/api/attendance", {
+          fetch("https://student-management-system-ws04.onrender.com/api/attendance", {
             headers,
           }),
-          fetch("http://localhost:5000/api/tasks", {
+          fetch("https://student-management-system-ws04.onrender.com/api/tasks", {
             headers,
           }),
         ]);
