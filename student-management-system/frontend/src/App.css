@@ -191,7 +191,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.auth-card > p {
+.auth-card>p {
   text-align: center;
   color: #666;
   margin-bottom: 25px;
@@ -299,6 +299,7 @@ footer {
 .dashboard-header h1 {
   font-size: 32px;
   margin-bottom: 8px;
+  color: #2563eb;
 }
 
 .dashboard-header p {
@@ -316,7 +317,7 @@ footer {
   background: white;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .stat-card h3 {
@@ -326,6 +327,7 @@ footer {
 
 .stat-card h2 {
   font-size: 30px;
+  color: #2563eb;
 }
 
 .dashboard-section {
@@ -333,11 +335,12 @@ footer {
   padding: 25px;
   border-radius: 12px;
   margin-bottom: 25px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
 .dashboard-section h2 {
   margin-bottom: 20px;
+  color: #2563eb;
 }
 
 .admin-actions {
@@ -378,6 +381,7 @@ footer {
 .page-header h1 {
   font-size: 32px;
   margin-bottom: 8px;
+  color: #2563eb;
 }
 
 .page-header p {
@@ -391,6 +395,11 @@ footer {
   border-radius: 12px;
   margin-bottom: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.student-form-section h2,
+.students-list-section h2 {
+  color: #2563eb;
 }
 
 .student-form {
@@ -464,6 +473,14 @@ footer {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
+.attendance-form-section h2 {
+  color: #2563eb;
+}
+
+.attendance-list-section h2 {
+  color: #7c3aed;
+}
+
 .attendance-form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -491,12 +508,7 @@ footer {
 .attendance-record-row {
   display: grid;
   grid-template-columns:
-    1.2fr
-    1.3fr
-    1.2fr
-    1fr
-    1fr
-    100px;
+    1.2fr 1.3fr 1.2fr 1fr 1fr 100px;
 
   padding: 15px;
   border-bottom: 1px solid #eee;
@@ -528,6 +540,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 /* Tasks Page */
 
 .tasks-page {
@@ -572,12 +585,7 @@ footer {
 .task-row {
   display: grid;
   grid-template-columns:
-    1.5fr
-    1fr
-    1.2fr
-    1fr
-    1fr
-    100px;
+    1.5fr 1fr 1.2fr 1fr 1fr 100px;
 
   padding: 15px;
   border-bottom: 1px solid #eee;
@@ -616,4 +624,61 @@ footer {
   .task-form {
     grid-template-columns: 1fr;
   }
+}
+
+.task-form-section h2 {
+  color: #2563eb;
+}
+
+.task-list-section h2 {
+  color: #7c3aed;
+}
+
+.attendance-form select {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #555;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.attendance-form input[type="date"] {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #555;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.task-form input,
+.task-form select {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #555;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.task-form select option {
+  color: #555;
+}
+
+.attendance-form input {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #555;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
 }

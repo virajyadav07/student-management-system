@@ -257,6 +257,8 @@ function Attendance() {
               onChange={(e) => setRollNo(e.target.value)}
             />
 
+            
+
             <input
               type="email"
               placeholder="Student Email"
@@ -271,6 +273,7 @@ function Attendance() {
               onChange={(e) =>
                 setSubject(e.target.value)
               }
+              
             >
               <option value="">Select Subject</option>
               <option value="Data Science">
@@ -282,6 +285,9 @@ function Attendance() {
                 Web Development
               </option>
             </select>
+            
+
+            
 
             <input
               type="date"
