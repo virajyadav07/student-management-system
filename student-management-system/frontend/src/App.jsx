@@ -4,7 +4,7 @@ import "./App.css";
 import Login from "./pages/login";
 import Register from "./pages/register";
 import StudentDashboard from "./pages/studentdashboard";
-import AdminDashboard from "./pages/admindashboard";
+import AdminDashboard from "./pages/AdminDashboard";
 import Students from "./pages/Students";
 import Attendance from "./pages/Attendance";
 import Tasks from "./pages/Tasks";
