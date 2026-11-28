@@ -277,4 +277,4 @@ This project is available for educational and learning purposes.
 
 ---
 
-⭐ If you find this project useful, consider giving the repository 
+⭐ If you find this project useful, consider giving the repository a star!
