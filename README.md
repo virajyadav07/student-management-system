@@ -156,3 +156,5 @@ student-management-system/
 ├── .gitignore
 ├── package.json
 └── README.md
+
+Updated by Atul Verma - My first Pull Request.
