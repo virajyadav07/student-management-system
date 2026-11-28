@@ -1,4 +1,4 @@
-1. Student Task & Attendance Management System
+1. Student Task & Attendance Management System.arch
 
 A full-stack web application for managing students, attendance, assignments, and user authentication with role-based access control.
 
